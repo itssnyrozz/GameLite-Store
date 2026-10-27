@@ -1,0 +1,83 @@
+/* Onglet Limited (js/limited.js) et onglet Développeurs (js/devtools.js). */
+
+#rx-panel .rxlim-row {
+  gap: 12px;
+}
+
+#rx-panel .rxlim-row > img {
+  flex: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 8px;
+  background: var(--rx-surface-2);
+  object-fit: cover;
+}
+
+#rx-panel .rxlim-txt {
+  flex: 1;
+  min-width: 0;
+}
+
+#rx-panel .rxlim-txt .rx-li-name {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#rx-panel .rxlim-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 4px;
+}
+
+#rx-panel .rxlim-acr {
+  font-weight: 800;
+}
+
+#rx-panel .rxlim-val {
+  background: color-mix(in srgb, #22c55e 18%, transparent) !important;
+  color: #22c55e !important;
+}
+
+#rx-panel .rxlim-rare {
+  background: color-mix(in srgb, #f5b301 18%, transparent) !important;
+  color: #f5b301 !important;
+}
+
+#rx-panel .rxlim-warn {
+  background: color-mix(in srgb, #ef4444 18%, transparent) !important;
+  color: #ef4444 !important;
+}
+
+#rx-panel .rxlim-row input[type="number"] {
+  width: 110px;
+  flex: none;
+}
+
+#rx-panel .rxlim-row .rx-sec.rx-active {
+  border-color: var(--rx-accent);
+  color: var(--rx-accent) !important;
+}
+
+#rx-panel .rxlim-total:not(:empty) {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px 18px;
+  margin-bottom: 10px;
+  padding: 12px 14px;
+  border: 1px solid var(--rx-border);
+  border-radius: 10px;
+  background: var(--rx-surface-2);
+}
+
+#rx-panel .rxlim-total strong {
+  font-size: 18px;
+  color: var(--rx-accent);
+}
+
+#rx-panel .rxdev-links a {
+  text-decoration: none;
+}

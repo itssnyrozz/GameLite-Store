@@ -1,0 +1,11 @@
+name = "rbx-banners"
+main = "banner-worker.js"
+compatibility_date = "2024-09-23"
+
+# Remplacer l'id par celui donné par : npx wrangler kv namespace create BANNERS
+[[kv_namespaces]]
+binding = "BANNERS"
+id = "209b6a4e074540d8ad280a46a9092cb9"
+
+[ai]
+binding = "AI"

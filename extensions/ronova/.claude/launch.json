@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "bench",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["C:/Users/tomok/AppData/Local/Temp/claude/C--Users-tomok-Documents-GitHub-RobloxCustomizer/6f0106da-62ac-49a6-824c-447aaad051f0/scratchpad/bench/serve.js", "C:/Users/tomok/Documents/GitHub/RobloxCustomizer", "8766"],
+      "port": 8766
+    }
+  ]
+}

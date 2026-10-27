@@ -1,0 +1,7 @@
+# Copie du code du serveur faite pour le copier-coller sur Cloudflare
+worker/banner-worker-COPIER.txt
+# Fichiers de Wrangler (déploiement du serveur)
+worker/.wrangler/
+node_modules/
+# État de la synchro automatique, propre à chaque PC
+sync-stamp.json
