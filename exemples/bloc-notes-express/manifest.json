@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Bloc-notes express",
+  "version": "1.0",
+  "description": "Un bloc-notes toujours sous la main (bouton puzzle de la barre d'outils) : codes, pseudos, stratégies… Enregistré automatiquement.",
+  "icons": { "128": "icon.png" },
+  "action": { "default_popup": "popup.html" },
+  "permissions": ["storage"]
+}

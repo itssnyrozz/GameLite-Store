@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube sans Shorts",
+  "version": "1.0",
+  "description": "Cache les Shorts de YouTube (accueil, abonnements, menu) et ouvre les Shorts en vidéo normale.",
+  "icons": { "128": "icon.png" },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "css": ["sans-shorts.css"],
+      "js": ["sans-shorts.js"],
+      "run_at": "document_start"
+    }
+  ]
+}

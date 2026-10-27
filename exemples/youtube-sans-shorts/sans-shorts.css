@@ -1,0 +1,15 @@
+/* Étagères de Shorts sur l'accueil, les abonnements et les résultats de recherche */
+ytd-rich-shelf-renderer[is-shorts],
+ytd-reel-shelf-renderer,
+ytd-rich-section-renderer:has(ytd-rich-shelf-renderer[is-shorts]),
+grid-shelf-view-model:has(ytm-shorts-lockup-view-model),
+ytd-video-renderer:has(a[href^="/shorts/"]),
+ytd-grid-video-renderer:has(a[href^="/shorts/"]),
+ytd-rich-item-renderer:has(a[href^="/shorts/"]),
+/* Entrée « Shorts » du menu de gauche */
+ytd-guide-entry-renderer:has(a[title="Shorts"]),
+ytd-mini-guide-entry-renderer[aria-label="Shorts"],
+/* Onglet « Shorts » des chaînes */
+yt-tab-shape[tab-title="Shorts"] {
+  display: none !important;
+}

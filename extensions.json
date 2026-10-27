@@ -1,0 +1,6 @@
+{
+  "extensions": [
+    {"id":"youtube-sans-shorts","name":"YouTube sans Shorts","description":"Cache les Shorts de YouTube (accueil, abonnements, menu) et ouvre les Shorts en vidéo normale.","category":"video","author":"itssnyrozz","repo":"itssnyrozz/GameLite-Store","path":"exemples/youtube-sans-shorts","commit":"main","version":"1.0","icon":"https://raw.githubusercontent.com/itssnyrozz/GameLite-Store/main/exemples/youtube-sans-shorts/icon.png","permissions":["https://www.youtube.com/*"],"added":"2026-10-27"},
+    {"id":"bloc-notes-express","name":"Bloc-notes express","description":"Un bloc-notes toujours sous la main (bouton puzzle de la barre d'outils) : codes, pseudos, stratégies… Enregistré automatiquement.","category":"productivite","author":"itssnyrozz","repo":"itssnyrozz/GameLite-Store","path":"exemples/bloc-notes-express","commit":"main","version":"1.0","icon":"https://raw.githubusercontent.com/itssnyrozz/GameLite-Store/main/exemples/bloc-notes-express/icon.png","permissions":["storage"],"added":"2026-10-27"}
+  ]
+}
