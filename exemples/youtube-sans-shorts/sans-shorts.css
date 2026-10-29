@@ -8,7 +8,10 @@ ytd-grid-video-renderer:has(a[href^="/shorts/"]),
 ytd-rich-item-renderer:has(a[href^="/shorts/"]),
 /* Entrée « Shorts » du menu de gauche */
 ytd-guide-entry-renderer:has(a[title="Shorts"]),
+ytd-guide-entry-renderer:has(a[href="/shorts/"]),
 ytd-mini-guide-entry-renderer[aria-label="Shorts"],
+ytd-mini-guide-entry-renderer:has(a[title="Shorts"]),
+ytd-mini-guide-entry-renderer:has(a[href="/shorts/"]),
 /* Onglet « Shorts » des chaînes */
 yt-tab-shape[tab-title="Shorts"] {
   display: none !important;
