@@ -1,9 +1,0 @@
-﻿Ton extension GameLite (format des extensions Chrome, Manifest V3)
-
-1. Modifie les fichiers de ce dossier (manifest.json, popup.html, popup.js, content.js).
-2. Dans GameLite : Extensions > Installées > bouton "Recharger" sur ton extension.
-3. Pour la publier gratuitement :
-   - mets ce dossier dans un dépôt GitHub public (GitHub Desktop > Add > Create new repository) ;
-   - dans GameLite : Extensions > Publier, colle le lien du dépôt et envoie la demande.
-
-Documentation des extensions : https://developer.chrome.com/docs/extensions

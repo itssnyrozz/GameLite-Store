@@ -1,0 +1,87 @@
+{
+  "manifest_version": 3,
+  "name": "RoNova",
+  "version": "10.4",
+  "description": "Personnalise Roblox avec un panneau de réglages intégré",
+  "permissions": [
+    "storage",
+    "unlimitedStorage"
+  ],
+  "host_permissions": [
+    "https://*.roblox.com/*",
+    "https://api.rolimons.com/*"
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_title": "RoNova",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.roblox.com/*"
+      ],
+      "js": [
+        "js/core.js",
+        "js/theme.js",
+        "js/panel.js",
+        "js/features.js",
+        "js/social.js",
+        "js/social2.js",
+        "js/social3.js",
+        "js/social4.js",
+        "js/social5.js",
+        "js/social6.js",
+        "js/social7.js",
+        "js/social8.js",
+        "js/friends.js",
+        "js/badges.js",
+        "js/cloud.js",
+        "js/modern.js",
+        "js/extras.js",
+        "js/polish.js",
+        "js/tools.js",
+        "js/perks.js",
+        "js/limited.js",
+        "js/devtools.js",
+        "js/profile.js",
+        "js/layout.js"
+      ],
+      "css": [
+        "css/panel.css",
+        "css/admin.css",
+        "css/social.css",
+        "css/social2.css",
+        "css/social3.css",
+        "css/social4.css",
+        "css/social5.css",
+        "css/social6.css",
+        "css/social7.css",
+        "css/social8.css",
+        "css/friends.css",
+        "css/badges.css",
+        "css/cloud.css",
+        "css/modern.css",
+        "css/extras.css",
+        "css/polish.css",
+        "css/limited.css",
+        "css/profile.css",
+        "css/layout.css"
+      ],
+      "run_at": "document_start"
+    }
+  ]
+}
