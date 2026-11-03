@@ -1,0 +1,37 @@
+{
+  "_aide": "Sponsors de Vexa : voir SPONSORS.md. Une tuile ne s'affiche que si \"enabled\": true. 6 tuiles maximum. where : home (accueil) et/ou store (Vexa Store).",
+  "tiles": [
+    {
+      "id": "instant-gaming",
+      "enabled": false,
+      "name": "Instant Gaming",
+      "url": "https://www.instant-gaming.com/?igr=TON_IDENTIFIANT",
+      "color": "#ff5400",
+      "letter": "IG",
+      "where": ["home", "store"]
+    },
+    {
+      "id": "eneba",
+      "enabled": false,
+      "name": "Eneba",
+      "url": "https://www.eneba.com/?af_id=TON_IDENTIFIANT",
+      "color": "#7b2cf5",
+      "letter": "E",
+      "where": ["home"]
+    },
+    {
+      "id": "humble",
+      "enabled": false,
+      "name": "Humble Bundle",
+      "url": "https://www.humblebundle.com/?partner=TON_IDENTIFIANT",
+      "color": "#cb272c",
+      "letter": "H",
+      "where": ["store"]
+    }
+  ],
+  "network": {
+    "enabled": false,
+    "height": 100,
+    "html": "<!-- Colle ici le code de la bannière donné par ta régie publicitaire -->"
+  }
+}
