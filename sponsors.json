@@ -1,5 +1,6 @@
 {
-  "_aide": "Sponsors de Vexa : voir SPONSORS.md. Une tuile ne s'affiche que si \"enabled\": true. 6 tuiles maximum. where : home (accueil) et/ou store (Vexa Store).",
+  "_aide": "Sponsors de Vexa : voir SPONSORS.md. Une tuile ne s'affiche que si \"enabled\": true. 6 tuiles maximum. where : home (accueil) et/ou store (Vexa Store). donate : lien PayPal.me du bouton « Soutenir Vexa » (vide = bouton caché).",
+  "donate": "",
   "tiles": [
     {
       "id": "instant-gaming",

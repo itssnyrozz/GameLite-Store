@@ -17,6 +17,12 @@ Vexa affiche quelques tuiles « Sponsorisé » (liens d'affiliation) sur la page
 4. `id` : en minuscules, chiffres et tirets seulement (ex. `instant-gaming`).
 5. Enregistre : la synchro publie le fichier. Sur vos PC (créateurs), Vexa lit directement la copie locale, donc le changement se voit au prochain lancement.
 
+## Dons (« Soutenir Vexa »)
+
+1. Crée ton lien PayPal.me sur https://www.paypal.com/paypalme (il ressemble à `https://paypal.me/TonNom`).
+2. Colle-le dans `donate` en haut de `sponsors.json`.
+3. Le bouton « Soutenir Vexa » apparaît alors dans le menu du logo et dans Paramètres → À propos de Vexa. Tant que `donate` est vide, il reste caché. Seuls les liens `paypal.me` ou `paypal.com` en `https://` sont acceptés.
+
 ## Bannière d'une régie publicitaire
 
 1. Crée un compte chez une régie (sa validation peut prendre quelques jours).
