@@ -23,6 +23,7 @@ Tu peux tout effacer depuis **Paramètres → Confidentialité**, ou en désinst
 |---|---|---|
 | Navigation | Ce qu'envoie tout navigateur aux sites que tu visites | Les sites eux-mêmes |
 | Recherche depuis la barre d'adresse | Ta recherche | Le moteur de recherche choisi dans les Paramètres (Google par défaut) |
+| Traduction de page (seulement quand tu cliques sur l'icône de traduction) | Le texte de la page affichée, sans l'adresse ni les cookies | Service de traduction de Google (`translate.googleapis.com`) |
 | Icônes des sites (onglets, raccourcis) | Le nom du site (ex. `youtube.com`), sans l'adresse complète de la page | Service d'icônes de Google (`t1.gstatic.com`) |
 | Vexa Store (extensions et mods) | Demande du catalogue et des fichiers à installer | GitHub |
 | Liste des sponsors | Demande du fichier des sponsors (au lancement, puis toutes les 6 heures) | GitHub |
