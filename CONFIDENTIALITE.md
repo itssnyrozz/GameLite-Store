@@ -11,6 +11,8 @@ Ces données sont enregistrées uniquement sur ton ordinateur, dans le dossier d
 - historique de navigation, favoris, onglets ouverts, espaces, dossiers d'onglets, notes ;
 - réglages, prénom affiché sur l'accueil, liste de tes jeux ;
 - cookies, mots de passe et formulaires enregistrés par le moteur du navigateur (Microsoft Edge WebView2) ;
+- mots de passe enregistrés dans le coffre de Vexa, chiffrés avec ta session Windows (seul ton compte Windows peut les lire) ;
+- applis web installées (nom, adresse et icône du site) et leurs raccourcis sur ton bureau ;
 - extensions et mods installés.
 
 Le mode privé n'enregistre ni historique, ni cookies, ni cache sur le disque.
